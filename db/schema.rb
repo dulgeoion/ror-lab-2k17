@@ -16,10 +16,11 @@ ActiveRecord::Schema.define(version: 20171009092312) do
     t.string "firstname"
     t.string "lastname"
     t.string "email"
-    t.string "password"
     t.string "country"
     t.string "city"
-    t.string "house"
+    t.string "street"
+    t.integer "house"
+    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
